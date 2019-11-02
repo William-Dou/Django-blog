@@ -103,6 +103,7 @@ DATABASES = {
         'PASSWORD': 'welcome1',
         'HOST': 'localhost',
         'PORT': 3306,
+        # this must change , else cannot run
     }
 }
 
