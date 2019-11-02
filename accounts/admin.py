@@ -12,7 +12,8 @@ from django.contrib.auth.forms import UsernameField
 class BlogUserCreationForm(forms.ModelForm):
     password1 = forms.CharField(label='密码', widget=forms.PasswordInput)
     password2 = forms.CharField(label='再次输入密码', widget=forms.PasswordInput)
-    #Comments this is the first try
+
+    # Comments this is the first try
     class Meta:
         model = BlogUser
         fields = ('email',)
