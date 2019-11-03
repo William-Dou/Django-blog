@@ -99,11 +99,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangoblog',
-        'USER': 'root',
-        'PASSWORD': 'welcome1',
-        'HOST': 'localhost',
+        'USER': 'admincloud@dddddddddd',
+        'PASSWORD': 'Apple12$Apple12$',
+        'HOST': 'dddddddddd.mysql.database.azure.com"',
         'PORT': 3306,
-        # this must change , else cannot run
+        # this must change , else cannot run really need to change 100% success 1
     }
 }
 
